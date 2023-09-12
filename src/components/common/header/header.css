@@ -1,5 +1,5 @@
 header {
-    background-color: #dcd9e4;
+    background-color: rgb(171, 155, 240);
     height: 13vh;
     box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
     padding: 1px 0px;
@@ -27,7 +27,7 @@ header {
     padding: 0px 6px;
     background: #27ae60;
     border-radius: 50px;
-    color: #ffffff;
+    color: #7e3f3f;
     margin-right: 4px;
     font-weight: 400;
   }
@@ -38,6 +38,8 @@ header {
   header .toggle {
     display: none;
   }
+
+ 
   @media screen and (max-width: 768px) {
     header {
       padding: 0;
@@ -50,6 +52,7 @@ header {
     }
     header .nav .flex {
       display: none;
+      
     }
     header .toggle {
       display: block;
